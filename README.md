@@ -2,6 +2,8 @@
 
 A lightweight Python and SQLite management tool designed to track retail products, manage SKU inventory levels, and handle basic transactional updates safely.
 
+![Terminal Demo](demo.png)
+
 ## Key Technical Features
 * **Relational Database Design:** Employs SQLite with schema constraints (`PRIMARY KEY`, `UNIQUE`, `NOT NULL`) to maintain data integrity.
 * **Security Standards:** Utilizes parameterized SQL queries (`?` placeholders) across all read/write methods to protect against SQL injection vulnerabilities.
